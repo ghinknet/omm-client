@@ -1,2 +1,4 @@
+github.com/go-chi/chi/v5 v5.0.7 h1:rDTPXLDHGATaeHvVlLcR4Qe0zftYethFucbjVQ1PxU8=
+github.com/go-chi/chi/v5 v5.0.7/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
 github.com/webview/webview v0.0.0-20220816141928-2ee04ccd0530 h1:diPvLFzNaRG1c1Qh8s8jWQt/+l8HQs9iQgHvAV4N8q8=
 github.com/webview/webview v0.0.0-20220816141928-2ee04ccd0530/go.mod h1:rpXAuuHgyEJb6kXcXldlkOjU6y4x+YcASKKXJNUhh0Y=
