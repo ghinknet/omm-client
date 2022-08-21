@@ -1,0 +1,3 @@
+[submodule "omm-front"]
+	path = omm-front
+	url = https://gitea.ghink.net/Ghink/omm-front.git
