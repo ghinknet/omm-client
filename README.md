@@ -2,7 +2,15 @@
 
 Client of Oh My Mailbox
 
-### Compile application
+### Compile and Hot-Reload for Development
+
 ```sh
-bash build.sh
+cargo tauri dev
 ```
+
+### Compile application
+
+```sh
+cargo tauri build
+```
+

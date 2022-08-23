@@ -6,7 +6,7 @@
     "devPath": "http://127.0.0.1:13280"
   },
   "package": {
-    "productName": "omm-client",
+    "productName": "Omm-Client",
     "version": "0.1.0"
   },
   "tauri": {
@@ -15,8 +15,8 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
-      "copyright": "",
+      "category": "Utility",
+      "copyright": "Apache-2.0",
       "deb": {
         "depends": []
       },
@@ -34,11 +34,14 @@
         "entitlements": null,
         "exceptionDomain": "",
         "frameworks": [],
+        "license": "./LICENSE",
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
-      "shortDescription": "",
+      "resources": [
+        "./LICENSE"
+      ],
+      "shortDescription": "Oh My MailBox client application",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
