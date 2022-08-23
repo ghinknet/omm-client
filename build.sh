@@ -3,8 +3,7 @@
 cd $(dirname $0)
 
 function _build(){
-	go generate || exit $?
-	go build -o "$1" . || exit $?
+	cargo tauri build || exit $?
 }
 
-_build ./target/output-self
+_build

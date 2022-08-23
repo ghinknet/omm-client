@@ -1,0 +1,65 @@
+{
+  "build": {
+    "distDir": "./omm-front/dist/",
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev -- --port 13280",
+    "devPath": "http://127.0.0.1:13280"
+  },
+  "package": {
+    "productName": "omm-client",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "cc.ohmail",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "width": 1150,
+        "height": 680,
+        "resizable": true,
+        "title": "Oh My MailBox"
+      }
+    ]
+  }
+}
